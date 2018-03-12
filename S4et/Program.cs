@@ -37,7 +37,13 @@ namespace S4et
             Console.WriteLine($"Сумма счета: { this.Summa }");
         }
 
-
+        static void Main(string[] args)
+        {
+            S4et scr = new S4et();
+            scr.Input();
+            scr.Print();
+            Console.ReadKey();
+        }
 
     }
 }
